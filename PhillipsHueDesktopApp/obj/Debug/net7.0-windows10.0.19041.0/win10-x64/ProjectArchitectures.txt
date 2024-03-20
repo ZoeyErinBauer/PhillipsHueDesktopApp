@@ -1,0 +1,1 @@
+C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\PhillipsHueDesktopApp.csproj;x64
