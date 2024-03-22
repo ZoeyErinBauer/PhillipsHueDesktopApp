@@ -1,2 +1,4 @@
 ﻿/HueControlApi/bin/*
 /HueControlApi/obj/*
+/HueControlApi/obj/Debug
+HueControlApi/obj/Debug/*
