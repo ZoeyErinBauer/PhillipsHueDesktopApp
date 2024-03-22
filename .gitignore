@@ -1,1 +1,2 @@
-﻿/HueControlApi/bin/
+﻿/HueControlApi/bin/*
+/HueControlApi/obj/*
