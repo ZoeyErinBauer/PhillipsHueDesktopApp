@@ -2,7 +2,8 @@
 
 public enum HueApiEndpoint
 {
-    LIGHT
+    LIGHT,
+    DEVICE
 }
 
 public static class HueApiEndpointExtensions
