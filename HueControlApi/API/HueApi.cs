@@ -19,6 +19,15 @@ public class HueApi(string bridgeUri)
         });
     }
 
+    /// <summary>
+    /// Calls the specified Hue API endpoint and performs the specified API action.
+    /// </summary>
+    /// <typeparam name="T">Type of response expected.</typeparam>
+    /// <param name="endpoint">The API endpoint to call.</param>
+    /// <param name="apiAction">The API action to perform (GET, POST, PUT, DELETE).</param>
+    /// <param name="lightId">The ID of the light (optional, used for specific light actions).</param>
+    /// <param name="postJson">The JSON data for POST or PUT requests (optional).</param>
+    /// <returns>A parsed response object containing data responses and error responses.</returns>
     public async Task<ParsedHueResponse<T>> CallHueEndpoint<T>(HueApiEndpoint endpoint,
         ApiAction apiAction, string lightId = "", string postJson = "") where T : IHueModel
     {
@@ -37,7 +46,7 @@ public class HueApi(string bridgeUri)
                     .ReceiveString();
                 return HueResponseDecoders.ParseResponseObject<T>(result);
             case ApiAction.PUT:
-                result = await client.Request($"{endpoint.ToUrlString()}/{lightId}").PostJsonAsync(postJson)
+                result = await client.Request($"{endpoint.ToUrlString()}/{lightId}").PutJsonAsync(postJson)
                     .ReceiveString();
                 return HueResponseDecoders.ParseResponseObject<T>(result);
             case ApiAction.DELETE:

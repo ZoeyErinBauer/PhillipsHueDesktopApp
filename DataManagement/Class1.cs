@@ -13,9 +13,9 @@ public class DbContext : IDbContext
 {
     private readonly SqliteConnection _connection;
 
-    public DbContext(string connectionString)
+    public DbContext()
     {
-        _connection = new SqliteConnection(connectionString);
+        _connection = new SqliteConnection("local.db");
         _connection.Open();
     }
 

@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-20T03:58:49.827</Modified>
+      <Modified>2024-03-25T03:14:42.635</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-20T03:58:49.462</Modified>
+      <Modified>2024-03-25T03:14:42.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PhillipsHueDesktopApp.runtimeconfig.json">
       <PackagePath>PhillipsHueDesktopApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-20T03:57:20.521</Modified>
+      <Modified>2024-03-25T03:14:42.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PhillipsHueDesktopApp.dll">
       <PackagePath>PhillipsHueDesktopApp.dll</PackagePath>
-      <Modified>2024-03-20T03:58:48.933</Modified>
+      <Modified>2024-03-25T03:14:41.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PhillipsHueDesktopApp.exe</PackagePath>
-      <Modified>2024-03-20T03:58:48.937</Modified>
+      <Modified>2024-03-25T03:14:41.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zirin\RiderProjects\PhillipsHueDesktopApp\PhillipsHueDesktopApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PhillipsHueDesktopApp.deps.json">
       <PackagePath>PhillipsHueDesktopApp.deps.json</PackagePath>
-      <Modified>2024-03-20T03:58:49.345</Modified>
+      <Modified>2024-03-25T03:14:42.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zirin\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.12\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
