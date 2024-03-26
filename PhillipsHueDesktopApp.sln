@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlApi", "ControlApi\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueControlApiTests", "HueControlApiTests\HueControlApiTests.csproj", "{1E4DFC35-B7FC-475C-97C6-6828266F2F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightManagement", "LightManagement\LightManagement.csproj", "{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightManagement", "LightManagement\LightManagement.csproj", "{B16302BB-21EB-45F0-9F30-06C7C41D94A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{1E4DFC35-B7FC-475C-97C6-6828266F2F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4DFC35-B7FC-475C-97C6-6828266F2F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4DFC35-B7FC-475C-97C6-6828266F2F42}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16302BB-21EB-45F0-9F30-06C7C41D94A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16302BB-21EB-45F0-9F30-06C7C41D94A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16302BB-21EB-45F0-9F30-06C7C41D94A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16302BB-21EB-45F0-9F30-06C7C41D94A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,7 +2,6 @@
 
 namespace ControlApi.Hue.ApiModels.SubModels;
 
-[method: JsonConstructor]
 public class HueMetaData(string name, string archetype)
 {
     [JsonPropertyName("name")] public string Name { get; set; } = name;
