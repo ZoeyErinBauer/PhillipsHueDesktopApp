@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MauiIcons.FontAwesome;
+using MauiIcons.FontAwesome.Brand;
+using MauiIcons.FontAwesome.Solid;
+using Microsoft.Extensions.Logging;
 
 namespace LightManagement;
 
@@ -9,6 +12,9 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
+            .UseFontAwesomeMauiIcons()
+            .UseFontAwesomeBrandMauiIcons()
+            .UseFontAwesomeSolidMauiIcons()
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
