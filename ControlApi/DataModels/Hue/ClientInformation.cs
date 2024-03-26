@@ -1,12 +1,12 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
-namespace HueControlApi.DataModels.Hue;
+namespace ControlApi.DataModels.Hue;
 
 public record ClientInformation(
-    [property: JsonPropertyName("Id")] int Id,
-    [property: JsonPropertyName("username")]
-    string Username,
-    [property: JsonPropertyName("clientkey")]
-    string ClientKey,
-    [property: JsonPropertyName("isActive")]
-    bool IsActive);
+    [property: Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    int Id,
+    [property: Column] string Username,
+    [property: Column] string ClientKey,
+    [property: Column] bool IsActive);

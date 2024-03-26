@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhillipsHueDesktopApp", "PhillipsHueDesktopApp\PhillipsHueDesktopApp.csproj", "{768C683F-B2D0-4D27-8848-78782A90ACB3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlApi", "ControlApi\ControlApi.csproj", "{7F4C6165-ADDA-4D87-8BA4-06CD6915F00C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueControlApiTests", "HueControlApiTests\HueControlApiTests.csproj", "{1E4DFC35-B7FC-475C-97C6-6828266F2F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightManagement", "LightManagement\LightManagement.csproj", "{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,10 +12,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{768C683F-B2D0-4D27-8848-78782A90ACB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{768C683F-B2D0-4D27-8848-78782A90ACB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{768C683F-B2D0-4D27-8848-78782A90ACB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{768C683F-B2D0-4D27-8848-78782A90ACB3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F4C6165-ADDA-4D87-8BA4-06CD6915F00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F4C6165-ADDA-4D87-8BA4-06CD6915F00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F4C6165-ADDA-4D87-8BA4-06CD6915F00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,5 +20,9 @@ Global
 		{1E4DFC35-B7FC-475C-97C6-6828266F2F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4DFC35-B7FC-475C-97C6-6828266F2F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4DFC35-B7FC-475C-97C6-6828266F2F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C128F1AA-FEC7-4138-BCDE-3BDB20203EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

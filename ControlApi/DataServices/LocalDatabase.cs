@@ -1,7 +1,7 @@
-﻿using HueControlApi.DataModels.Hue;
+﻿using ControlApi.DataModels.Hue;
 using Microsoft.EntityFrameworkCore;
 
-namespace HueControlApi.DataServices;
+namespace ControlApi.DataServices;
 
 public class LocalDatabase : DbContext
 {
@@ -12,10 +12,4 @@ public class LocalDatabase : DbContext
         optionsBuilder.UseSqlite(@"Data Source=database.db");
     }
     
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<ClientInformation>()
-            .Property(e => e.Id)
-            .ValueGeneratedOnAdd();
-    }
 }
