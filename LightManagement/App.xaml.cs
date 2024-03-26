@@ -8,7 +8,6 @@ public partial class App : Application
     public App()
     {
         InitializeComponent();
-
         Theme.Default.InitializeTheme<App>(x =>
         {
             // Default Theme

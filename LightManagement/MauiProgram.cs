@@ -1,4 +1,5 @@
-﻿using MauiIcons.FontAwesome;
+﻿using CommunityToolkit.Maui;
+using MauiIcons.FontAwesome;
 using MauiIcons.FontAwesome.Brand;
 using MauiIcons.FontAwesome.Solid;
 using Microsoft.Extensions.Logging;
@@ -15,6 +16,7 @@ public static class MauiProgram
             .UseFontAwesomeMauiIcons()
             .UseFontAwesomeBrandMauiIcons()
             .UseFontAwesomeSolidMauiIcons()
+            .UseMauiCommunityToolkit()
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

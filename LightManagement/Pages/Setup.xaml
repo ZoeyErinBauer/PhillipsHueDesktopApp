@@ -3,18 +3,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
-             x:Class="LightManagement.Pages.Setup">
+             xmlns:models="clr-namespace:LightManagement.ModelView"
+             x:Class="LightManagement.Pages.Setup" x:DataType="models:SetupModel">
     <ContentPage.Content>
+
         <ScrollView x:Name="StepOne">
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25">
+            <VerticalStackLayout RadioButtonGroup.GroupName="SupportedSystem"
+                                 RadioButtonGroup.SelectedValue="{Binding SelectedSystem}">
                 <Label x:Name="StepOneLabel" Text="Please select product to add" />
                 <RadioButton Content="Phillips Hue" Value="HUE" />
-                <Button ImageSource="{mi:FontAwesome SquareCaretRight }"></Button>
+                <Button ImageSource="{mi:FontAwesome SquareCaretRight }" x:Name="NextButton" Command="{Binding NextCommand}"/>
             </VerticalStackLayout>
-
-
         </ScrollView>
+
+
     </ContentPage.Content>
 </ContentPage>
