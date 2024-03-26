@@ -1,11 +1,12 @@
 ﻿using System.Text.Json.Serialization;
-using HueControlApi.Models.SubModels;
+using ControlApi.Hue.ApiModels.SubModels;
 
-namespace HueControlApi.Models;
+namespace ControlApi.Hue.ApiModels;
 
 public class Device : AbstractHueObject
 {
-    public Device(string hueType, string id, string v1Id, ProductData productData, HueMetaData metaData, UserTest userTest, List<ResourceIdentifier> services)
+    public Device(string hueType, string id, string v1Id, ProductData productData, HueMetaData metaData,
+        UserTest userTest, List<ResourceIdentifier> services)
     {
         HueType = hueType;
         Id = id;

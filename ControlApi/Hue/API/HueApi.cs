@@ -1,9 +1,9 @@
 ﻿using Flurl.Http;
-using HueControlApi.Enum;
-using HueControlApi.Models;
-using HueControlApi.Utilities;
+using ControlApi.Hue.ApiModels;
+using ControlApi.Hue.Enum;
+using ControlApi.Hue.Utilities;
 
-namespace HueControlApi.API;
+namespace ControlApi.Hue.API;
 
 public class HueApi(string bridgeUri)
 {
@@ -33,7 +33,7 @@ public class HueApi(string bridgeUri)
     {
         var client = CreateHueClient();
         string result;
-        
+
         switch (apiAction)
         {
             case ApiAction.GET:
@@ -55,5 +55,10 @@ public class HueApi(string bridgeUri)
             default:
                 throw new ArgumentOutOfRangeException(nameof(apiAction), apiAction, null);
         }
+    }
+
+    public async Task<bool> SaveHueItemToLocalDatabase<T>(T item) where T : IHueModel
+    {
+        return await Task.FromResult(true);
     }
 }

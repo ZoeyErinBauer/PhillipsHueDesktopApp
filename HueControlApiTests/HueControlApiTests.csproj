@@ -25,7 +25,7 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\HueControlApi\HueControlApi.csproj" />
+      <ProjectReference Include="..\ControlApi\ControlApi.csproj" />
     </ItemGroup>
 
 

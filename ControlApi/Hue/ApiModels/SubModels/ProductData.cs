@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace HueControlApi.Models.SubModels;
+namespace ControlApi.Hue.ApiModels.SubModels;
 
 public class ProductData
 {

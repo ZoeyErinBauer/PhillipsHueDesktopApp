@@ -1,4 +1,4 @@
-﻿namespace HueControlApi.Enum;
+﻿namespace ControlApi.Hue.Enum;
 
 public enum HueApiEndpoint
 {

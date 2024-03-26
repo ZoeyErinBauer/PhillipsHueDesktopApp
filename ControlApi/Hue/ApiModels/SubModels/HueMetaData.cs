@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace HueControlApi.Models.SubModels;
+namespace ControlApi.Hue.ApiModels.SubModels;
 
 [method: JsonConstructor]
 public class HueMetaData(string name, string archetype)

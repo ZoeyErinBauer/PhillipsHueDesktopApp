@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace HueControlApi.Models;
+namespace ControlApi.Hue.ApiModels;
 
 public abstract class AbstractHueObject : IHueModel
 {

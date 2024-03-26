@@ -1,6 +1,7 @@
-﻿using HueControlApi.Models.Records;
+﻿using ControlApi.Hue.ApiModels.Records;
 
-namespace HueControlApi.Models;
+
+namespace ControlApi.Hue.ApiModels;
 
 /// <summary>
 /// Stores parsed information from the Phillips hue api call as a Typed Data response and HueError Objects

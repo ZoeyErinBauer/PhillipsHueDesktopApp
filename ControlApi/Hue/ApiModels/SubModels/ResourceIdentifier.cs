@@ -1,8 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace HueControlApi.Models.SubModels;
+namespace ControlApi.Hue.ApiModels.SubModels;
 
-[method: JsonConstructor]
 public class ResourceIdentifier
 {
     [JsonPropertyName("rid")] public string ResourceIdentifierId { get; set; }

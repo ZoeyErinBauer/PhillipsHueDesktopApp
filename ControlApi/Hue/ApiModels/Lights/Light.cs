@@ -1,6 +1,7 @@
 ﻿using System.Text.Json.Serialization;
+using ControlApi.Hue.ApiModels.SubModels;
 
-namespace HueControlApi.Models.Lights;
+namespace ControlApi.Hue.ApiModels.Lights;
 
 public class Light(string hueType, string id, string v1Id, HueOwner? owner) : AbstractHueObject
 {

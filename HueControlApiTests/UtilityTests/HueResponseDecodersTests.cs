@@ -1,5 +1,5 @@
-﻿using HueControlApi.Models.Records;
-using HueControlApi.Utilities;
+﻿using ControlApi.Hue.ApiModels.Records;
+using ControlApi.Hue.Utilities;
 
 namespace HueControlApiTests.UtilityTests;
 

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace HueControlApi.Models;
+namespace ControlApi.Hue.ApiModels.SubModels;
 
 [method: JsonConstructor]
 public class HueOwner(string rid, string rtype)

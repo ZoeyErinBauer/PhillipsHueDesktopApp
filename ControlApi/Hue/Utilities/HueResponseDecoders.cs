@@ -1,8 +1,8 @@
 ﻿using System.Text.Json;
-using HueControlApi.Models;
-using HueControlApi.Models.Records;
+using ControlApi.Hue.ApiModels;
+using ControlApi.Hue.ApiModels.Records;
 
-namespace HueControlApi.Utilities;
+namespace ControlApi.Hue.Utilities;
 
 public static class HueResponseDecoders
 {
